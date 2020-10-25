@@ -360,6 +360,7 @@ form p {
 }
 .foot a img {
   border-radius: 15px;
+  margin-left: 10px;
 }
 
 
@@ -429,7 +430,7 @@ form  p{
 
 /* PRODUCT OR SERVICE DESCRIPTION */
 .productOrServeice {
-
+  margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
   /* display: flex;
@@ -450,9 +451,10 @@ form  p{
 }
 
 .order-now-btn {
+  margin: auto;
   padding: 12px;
   font-size: 35px;
-  width: 400px;
+  width: 100%;
   color: #fff;
   background: #000;
   cursor: pointer;
