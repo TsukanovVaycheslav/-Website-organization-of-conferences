@@ -133,13 +133,16 @@ h2 {
 }
 .productOrServeice img {
   width: 350px;
+  height: 270px;
 }
 .productOrServeice-text {
   margin: 20px;
+  font-size: 20px;
 }
 .order-now-btn {
   padding: 9px;
   width: 200px;
+  font-size: 20px;
   margin-left: 20px;
   color: #fff;
   background: #000;
@@ -368,6 +371,8 @@ form p {
 }
 /* /PRODUCT OR SERVICE DESCRIPTION */
 }
+
+
 @media(max-width: 992px) {
   .container {
     width: 890px;
@@ -377,6 +382,44 @@ form p {
   h2 {
     text-align: center;
   }
+
+/* header */
+
+.header-logo img {
+  width: 500px;
+}
+.header-menu {
+  display: none;
+}
+.tell-mini {
+  display: block;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.header-text-form {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-form {
+  margin-top: 50px;
+}
+
+form  p{
+  text-align: center;
+  font-size: 30px;
+}
+.entrance-btnw {
+  font-size: 30px;
+}
+/* header */
+
+
+
+
 /* PRODUCT OR SERVICE DESCRIPTION */
 .productOrServeice {
 
@@ -393,13 +436,15 @@ form p {
   margin: auto;
 }
 
-.productOrServeice-text {
-font-size: 20px;
+.productOrServeice-text,
+.tellUsMote-text-mini {
+  font-size: 27px;
+  text-align: center;
 }
 
 .order-now-btn {
   padding: 12px;
-  font-size: 15px;
+  font-size: 35px;
   width: 400px;
   color: #fff;
   background: #000;
@@ -418,16 +463,49 @@ font-size: 20px;
 /* /CLIENT FEEDBACK */
 
 /* TELL US MORE ABOUT THE PRODUCT / SERVICE */
-
-.tellUsMote-text-mini {
-  font-size: 18px;
+.tellUsMote-text3 {
+  font-size: 35px;
+  text-align: center;
 }
 /* /TELL US MORE ABOUT THE PRODUCT / SERVICE */
 
+/* PRICE LIST OF SERVICES */
+.price-block {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 10px;
+  margin: 10px;
+  background: #fff;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.price-block img {
+  width: 600px;
+  height: 600px;
+}
+
+.price-block img,
+.price-block p{
+  margin: auto;
+  font-size: 35px;
+  text-align: center;
+}
+
+.order-now-price-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  font-size: 40px;
+}
+/* /PRICE LIST OF SERVICES */
 
 /* THE ADVANTAGES OF THE PRODUCT / SERVICE */
 .advantage p {
-  font-size: 18px;
+  font-size: 25px;
+}
+
+.advantage img {
+  width: 180px;
 }
 .product-Service-text {
   text-align: center;
@@ -436,7 +514,7 @@ font-size: 20px;
 }
 .product-Service-text2 {
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
   margin: 10px;
 }
 
@@ -460,12 +538,70 @@ font-size: 20px;
 }
 /* /THE ADVANTAGES OF THE PRODUCT / SERVICE */
 
+
+
+/*  CLIENT FEEDBACK */
+.clientFeedback-text-img {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.clientFeedback-text-img img {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+
+.clientFeedback-text p {
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* / CLIENT FEEDBACK */
+
+
+/*  PAYMENT TERM */
+.info-text p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.info-text li {
+  font-size: 30px;
+}
+/* / PAYMENT TERM */
+
 /* WRITE TO US */
 
 .writeToUs img {
-  width: 400px;
-  margin: 10px;
+  width: 900px;
 }
 
+.writeToUs {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.writeToUs-text-mini {
+  font-size: 35px;
+  text-align: center;
+}
+.entrance-btn {
+  font-size: 45px;
+  width: 400px;
+}
 /* /WRITE TO US */
+
+.foot  {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #000000;
+  padding: 30px;
+  font-size: 35px;
+}
+.foot a img {
+  border-radius: 15px;
+  width: 90px;
+}
 }
