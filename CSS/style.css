@@ -450,7 +450,8 @@ form p{
   /* display: flex;
   justify-content: space-between; */
   text-align: center;
-  margin: 70px 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .productOrServeice img {
   width: 650px;
@@ -515,6 +516,7 @@ form p{
 }
 
 .order-now-price-btn {
+  margin-left: 0px;
   margin-top: 20px;
   width: 100%;
   padding: 15px;
@@ -611,7 +613,7 @@ form p{
 }
 .entrance-btn {
   font-size: 45px;
-  width: 400px;
+  width: 600px;
 }
 /* /WRITE TO US */
 
